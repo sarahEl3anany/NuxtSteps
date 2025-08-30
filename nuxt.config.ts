@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
         '@primevue/nuxt-module',
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
+        '@vee-validate/nuxt'
       ],
       primevue: {
         options: {
