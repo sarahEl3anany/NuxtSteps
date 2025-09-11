@@ -13,7 +13,7 @@ const resolver = ref(zodResolver(
     fullname: z.string().min(1, {message:"Full name is required!"})
     .min(3, {message:"Enter more than 3 chars."})
     .max(256, {message:"Enter less than 256 chars."}),
-    email: z.string().min(1, {message:"Full name is required!"})
+    email: z.string().min(1, {message:"Email is required!"})
     .email({message:"You must enter correct email."})
 
   })
